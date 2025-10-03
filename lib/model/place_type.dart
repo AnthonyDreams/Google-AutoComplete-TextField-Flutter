@@ -5,6 +5,8 @@ class PlaceType {
   static const geocode = PlaceType("geocode");
   static const address = PlaceType("address");
   static const establishment = PlaceType("establishment");
-  static const region = PlaceType("(region)");
+
+
+  static const regions = PlaceType("(regions)");
   static const cities = PlaceType("(cities)");
 }
